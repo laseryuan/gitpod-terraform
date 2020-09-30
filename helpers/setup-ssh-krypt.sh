@@ -9,7 +9,7 @@ echo "There are 2 options:"
 echo " - a SSH private key availabe in ENV_VAR_SSH_PRIVATE_KEY ( insecure, not recommended)"
 echo " -(picked) an account with https://krypt.co ( more secure)"
 echo " "
-read -p -r "Press enter to continue or Control-C( ^C ) to quit without any setup"
+read -r -p "Press enter to continue or Control-C( ^C ) to quit without any setup"
 
 # Ensure SSH is setup
 SSH_PATH="$HOME/.ssh"
